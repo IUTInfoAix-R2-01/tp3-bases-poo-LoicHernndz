@@ -7,7 +7,12 @@ public class TestAccount {
 	
 	System.out.println(account);
 	
-	account.setBalance(0.989);
+	account.deposit(1);
+	System.out.println(account);
+	
+	account.withdraw(10000000);
+	System.out.println(account);
+	account.withdraw(999999.4568);
 	System.out.println(account);
 	}
 }
