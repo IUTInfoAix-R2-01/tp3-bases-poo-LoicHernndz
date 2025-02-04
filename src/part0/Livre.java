@@ -1,3 +1,4 @@
+package part0;
 
 public class Livre {
 	private String name;
@@ -20,6 +21,10 @@ public class Livre {
 	
 	public int getQuantite() {
 		return quantite;
+	}
+	
+	public void setQuantite(int quantite) {
+		this.quantite = quantite;
 	}
 	
 	public String toString() {
